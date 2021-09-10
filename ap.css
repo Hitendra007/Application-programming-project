@@ -1,0 +1,372 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #4f5d6e;
+    position: relative;
+    background: rgb(26, 49, 95);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(26, 49, 95, 1)), color-stop(10%, rgba(26, 49, 95, 1)), color-stop(24%, rgba(29, 108, 141, 1)), color-stop(37%, rgba(41, 136, 151, 1)), color-stop(77%, rgba(39, 45, 100, 1)), color-stop(90%, rgba(26, 49, 95, 1)), color-stop(100%, rgba(26, 49, 95, 1)));
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#1a315f', endColorstr='#1a315f', GradientType=0);
+  }
+  
+#box2{
+    margin:0px 50px 0px 50px
+
+}
+#box2>h1{
+    float: left;
+    color: white;
+}
+#box2>form{
+      width: 200px;
+      position: relative;
+      left:77%;
+}
+.btn{
+    margin: 0px 0px 0px 0px;
+    background-color: black;
+    border: 2px solid;
+}
+.navbar{
+    position: relative;
+    left:2px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    width:100%;
+}
+#top{
+    background-color:rgba(8, 0, 0, 0.931);
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 40px;
+    margin:2px 50px 0px 50px;
+    border-radius: 5px;
+    padding:0px;
+    line-height:1.1cm;
+    font-size: 14px;
+}
+#inside-top{
+   line-height:cm;
+   font-size: small;
+   float:left;
+   position: relative;
+   top:28%;
+   margin: 0px 0px 0px 15px;
+}
+#index{
+    position: relative;
+    left: 780px;
+    color: rgb(243, 233, 233);
+}
+.glyphicon:hover{
+    background-color:white;
+    color:black;
+    border-radius: 4px;
+    border: 4px solid white;
+}
+.grid-box{
+    display:grid;
+    margin:2px 50px 0px 50px;
+    grid-template-areas: 'image details card'
+                          'image details artists'
+                          'prod prod popu'
+                          'foot foot foot';
+                          
+    grid-gap: 50px ;
+    float: left;
+
+}
+.image{
+    grid-area: image;
+    width:400px;
+    color: white;
+    
+}
+.artist{
+    font-size:12px;
+}
+.artist>i{
+    color:rgba(55, 55, 233, 0.863);
+}
+.cart1{
+    color:black; 
+    padding: 5px; 
+    border: 1px solid black; 
+    margin: 1px 0px 1px 1px;
+    border-radius: 4px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    font-size: 15px;
+    background-color: rgba(181, 230, 109, 0.924);
+}
+.small-card{
+    grid-area: card;
+}
+.details{
+    grid-area: details;
+    width: 400px;
+    color: white;
+}
+.productdetails {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+    color: black;
+    width: 300px;
+  }
+  th{  
+      font-size: 17px;
+      font-weight: bold;
+      background-color: rgb(64, 231, 22);
+  }
+  td {
+      background-color: rgb(250, 246, 246);
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 20px;
+    font-size: 15px;
+  }
+  .small-card{
+         border: 1px solid black;
+         width: 200px;
+         height: 200px;
+         border-radius: 4px;
+         background-color: rgb(250, 243, 243);
+  }
+  .small-image{
+      width: 28px;
+      margin:0px 10px 10px 10px;
+      float: left;
+  }
+  .popular-artists>div, .popular-geners>div{
+        background-color: rgb(15, 1, 1);
+        color: rgb(255, 255, 255);
+        border-radius: 4px;
+        height:40px;
+  }
+
+  .popular-artists>h3,.popular-geners>h3{
+      display:block;
+      padding: 3px;
+      background-color:lightgray;
+  }
+  .popular-artists,.popular-geners{
+      width: 200px;
+      grid-area:artists;
+  }
+ .popular-geners a ,.popular-artists a{
+     color: black;
+     text-decoration: none;
+ }
+ .popular-artists h3:nth-child(even),.popular-geners h3:nth-child(even){
+     background-color: rgb(246, 243, 243);
+ }
+  .painting-card{
+      background-color: red;
+  }
+  .painting-card-im{
+      margin: auto;
+  }
+  .painting-card-im>img{
+      width: 50px;
+  }
+  .similarpro{
+      background-color:rgb(236, 224, 224);
+      border-radius: 3px;
+      border: 1px solid black;
+      width: 160px;
+      height: 135px;
+      margin:12px;
+  }
+ #img1{
+     width:80px;
+     height: 80px;
+     border: 1px solid black;
+     padding: 1px;
+     border-radius: 3px;
+     position: relative;
+     margin-top: 4px;
+     left: 42px;
+ }
+.products{
+    grid-area:prod;
+    height: 140px;
+}
+.popular-geners{
+    grid-area: popu;
+}
+.foo{
+    grid-area: foot;
+    width: 100%;
+    height: 100px;
+}
+footer{
+    background-color: yellow;
+
+   }
+   .footer-distributed{
+    background-color: #01060cb7;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    
+    padding: 55px 50px;
+    margin-top: 0px;
+   }
+    
+   .footer-distributed .footer-left,
+   .footer-distributed .footer-center,
+   .footer-distributed .footer-right{
+    display: inline-block;
+    vertical-align: top;
+   }
+    
+   .footer-distributed .footer-left{
+    width: 40%;
+   }
+    
+   .footer-distributed h3{
+    color:  #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+   }
+    
+   .footer-distributed h3 span{
+    color:  #5383d3;
+   }
+    
+    
+   .footer-distributed .footer-links{
+    color:  #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+   }
+    
+   .footer-distributed .footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color:  inherit;
+   }
+    
+   .footer-distributed .footer-company-name{
+    color:  #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+   }
+    
+    
+   .footer-distributed .footer-center{
+    width: 35%;
+   }
+    
+   .footer-distributed .footer-center i{
+    background-color:  #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+   }
+    
+   .footer-distributed .footer-center i.fa-envelope{
+    font-size: 17px;
+    line-height: 38px;
+   }
+    
+   .footer-distributed .footer-center p{
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin:0;
+   }
+    
+   .footer-distributed .footer-center p span{
+    display:block;
+    font-weight: normal;
+    font-size:14px;
+    line-height:2;
+   }
+    
+   .footer-distributed .footer-center p a{
+    color:  #5383d3;
+    text-decoration: none;;
+   }
+    
+   .footer-distributed .footer-right{
+    width: 20%;
+   }
+    
+   .footer-distributed .footer-company-about{
+    line-height: 20px;
+    color:  #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+   }
+    
+   .footer-distributed .footer-company-about span{
+    display: block;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+   }
+    
+   .footer-distributed .footer-icons{
+    margin-top: 25px;
+   }
+    
+   .footer-distributed .footer-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color:  #33383b;
+    border-radius: 2px;
+    
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    
+    margin-right: 3px;
+    margin-bottom: 5px;
+   }
+    
+    
+   @media (max-width: 880px) {
+    
+    .footer-distributed{
+    font: bold 14px sans-serif;
+    
+    }
+    
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+    }
+    
+    .footer-distributed .footer-center i{
+    margin-left: 0;
+    }
+    .main {
+    line-height: normal;
+    font-size: auto;
+    }
+    
+   }
+
