@@ -2,6 +2,8 @@ body {
     font-family: 'PT Sans', sans-serif;
     font-size: 13px;
     font-weight: 400;
+    max-width:100vw;
+    overflow-x:hidden;
     color: #4f5d6e;
     position: relative;
     background: rgb(26, 49, 95);
